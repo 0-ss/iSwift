@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AppInstaller
+	Uri="file:///C:/Users/Lachowski/Documents/iSwift_x64.appinstaller"
+	Version="1.0.0.0" xmlns="http://schemas.microsoft.com/appx/appinstaller/2017/2">
+	<MainPackage
+		Name="96837fc9-df12-411a-8eff-29177fae468b"
+		Version="1.0.0.0"
+		Publisher="CN=df99"
+		Uri="file:///C:/Users/Lachowski/Documents/iSwift_1.0.0.0_x64_Debug_Test/iSwift_1.0.0.0_x64_Debug.msix"
+		ProcessorArchitecture="x64" />
+	<Dependencies>
+		<Package
+			Name="Microsoft.WindowsAppRuntime.1.7"
+			Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US"
+			ProcessorArchitecture="x64"
+			Uri="file:///C:/Users/Lachowski/Documents/iSwift_1.0.0.0_x64_Debug_Test/Dependencies/x64/Microsoft.WindowsAppRuntime.1.7.msix"
+			Version="7000.522.1444.0" />
+	</Dependencies>
+	<UpdateSettings>
+		<OnLaunch
+			HoursBetweenUpdateChecks="0" />
+	</UpdateSettings>
+</AppInstaller>
