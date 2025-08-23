@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AppInstaller
+    Uri="https://raw.githubusercontent.com/0-ss/iSwift/msix/iSwift_x64.appinstaller"
+    Version="1.0.2.0"
+    DisplayName="iSwift"
+    Publisher="CN=df99"
+    CertificateUri="https://raw.githubusercontent.com/0-ss/iSwift/main/iSwift_1.0.2.0_x64_Debug.cer"
+    UpdateSettings="Auto"
+    xmlns="http://schemas.microsoft.com/appx/appinstaller/2017/2">
+
+    <MainPackage
+        Name="iSwift"
+        Publisher="CN=df99"
+        Version="1.0.2.0"
+        ProcessorArchitecture="x64"
+        Uri="https://github.com/0-ss/iSwift/releases/download/msix/iSwift_1.0.2.0_x64_Debug.msix" />
+
+    <Dependencies>
+        <Package
+            Name="Microsoft.WindowsAppRuntime.1.7"
+            Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US"
+            ProcessorArchitecture="x64"
+            Uri="https://aka.ms/msix/windowsAppRuntime/1.7/x64/Microsoft.WindowsAppRuntime.1.7.msix"
+            Version="7000.522.1444.0" />
+    </Dependencies>
+
+    <UpdateSettings>
+        <OnLaunch
+            HoursBetweenUpdateChecks="0"
+            ShowPrompt="true"
+            UpdateBlocksActivation="false" />
+    </UpdateSettings>
+</AppInstaller>
